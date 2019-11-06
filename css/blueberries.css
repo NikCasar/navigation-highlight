@@ -64,6 +64,12 @@ h2 {
   margin: .3em;
 }
 
+img {
+  margin: .3em;
+  display: inline-block;
+  padding: 0 .75em;
+}
+
 p {
   font-size: 1.125rem;
   margin: .3em;
