@@ -3,6 +3,8 @@ html {
   box-sizing: border-box;
   font-family: Georgia, serif;
   line-height: 1.5;
+  color: #2f2d13;
+  padding: 0;
 }
 
 *, *::before, *::after {
@@ -17,7 +19,7 @@ body {
 header {
   background-color: #ffe500;
   padding: .2em .5em .3em;
-  margin: .3em;
+  margin: 0;
 }
 
 header h1 {
@@ -38,8 +40,9 @@ li {
 }
 
 a {
+  display: inline-inline-block;
   font-size: 1.125rem;
-  padding: .2em .5em .3em;
+  padding: 0 .75em;
   margin: .3em;
   background-color: #b2a212;
   border-radius: 4px;
@@ -57,7 +60,7 @@ a:hover {
 }
 
 h2 {
-  font-family: Sigmar One, serif;
+  font-family: "Sigmar One", serif;
   color: #b20953;
   font-size: 1.875rem;
   padding: 0 .75em;
@@ -68,6 +71,7 @@ img {
   margin: .3em;
   display: inline-block;
   padding: 0 .75em;
+  max-width: 100%;
 }
 
 p {
@@ -79,6 +83,6 @@ p {
 footer {
   background-color: #ffe500;
   padding: .75em;
-  margin: .3em;
+  margin: 0;
   text-align: center;
 }
