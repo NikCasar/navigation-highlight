@@ -17,17 +17,20 @@ body {
   margin: 0;
 }
 
+main {
+  padding: 0 .75em;
+}
+
 header {
   background-color: #ffe500;
-  padding: .2em .5em .3em;
+  padding: 0 0 .3em;
   margin: 0;
 }
 
 header h1 {
   font-size: 3rem;
-  margin: .3em;
-  padding: 0 .75em;
-  padding-top: 0;
+  margin: 0;
+  padding: 0;
   font-family: "Sigmar One", cursive;
   color: #b20953;
   text-align: center;
@@ -35,6 +38,9 @@ header h1 {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 li {
@@ -43,12 +49,13 @@ li {
 
 a {
   font-size: 1.125rem;
-  padding: 0 .75em;
+  padding: .2em .5em .3em;
   background-color: #b2a212;
   border-radius: 4px;
   text-align: center;
   text-decoration: none;
   color: #fff;
+  display: inline-block;
 }
 
 .current {
@@ -63,22 +70,11 @@ h2 {
   font-family: "Sigmar One", serif;
   color: #b20953;
   font-size: 1.875rem;
-  padding: 0 .75em;
-  margin: .3em;
 }
 
 img {
-  margin: .3em;
   display: block;
-  padding: 0 .75em;
   width: 100%;
-}
-
-p {
-  font-size: 1.125rem;
-  margin: .3em;
-  padding: .75em;
-  max-width: 100%;
 }
 
 footer {
